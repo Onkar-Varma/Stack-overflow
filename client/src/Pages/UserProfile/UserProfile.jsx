@@ -10,6 +10,7 @@ import Avatar from '../../components/Avatar/Avatar'
 import EditProfileForm from './EditProfileForm'
 import ProfileBio from './ProfileBio'
 import './UsersProfile.css'
+import UserLocation from './UserLocation'
 
 const UserProfile = () => {
 
@@ -50,6 +51,7 @@ const UserProfile = () => {
                                 <ProfileBio currentProfile={currentProfile}/>
                             )
                         }
+                        <UserLocation/>
                     </>
                 </section>
             </div>

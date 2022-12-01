@@ -22,3 +22,23 @@
 .user-profile-link h5{
     margin: 0px 10px;
 }
+
+
+/* =================User-Location============ */
+.location{
+    color: rgb(79, 57, 206);
+  }
+.locationBtn{
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color: white;
+    background: blueviolet;
+    transition: all 0.5s ease-in-out;
+}
+.locationBtn:hover{
+    color:blueviolet ;
+    border-color: blueviolet;
+    background-color: white;
+}
